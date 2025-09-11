@@ -1,3 +1,1 @@
 # ArtsiBurger.github.io
-# Hello!
-# Testing...
