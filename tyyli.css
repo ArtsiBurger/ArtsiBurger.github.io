@@ -48,3 +48,23 @@ img {
   align-items: center;
   gap: 10px;
 }
+
+body 
+{
+  margin: 0;
+  height: 100vh;
+  background-image: url("A_high-resolution_digital_photograph_presents_a_co.png");
+  background-size: cover;      /* makes it fill the screen */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat;/* prevents tiling */
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.taustakuva {
+  background: rgba(0,0,0,0.6); /* dark overlay for readability */
+  padding: 2rem;
+  margin: 3rem;
+  border-radius: 12px;
+}
