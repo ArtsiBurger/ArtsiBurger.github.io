@@ -38,16 +38,7 @@ a {
   text-align: center;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-}
 
-.header {
-  display: flex;
-  align-items: center;
-  gap: 500px;
-}
 
 /* CHATGPT */
 .bgbody
