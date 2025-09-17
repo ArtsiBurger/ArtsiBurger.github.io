@@ -53,7 +53,6 @@ main {
   /* work in progrees*/
 }
 
-
 /* CHATGPT */
 .bgbody
 { 
@@ -66,12 +65,4 @@ main {
   font-family: Arial, sans-serif;
   color: rgb(0, 0, 0);
   text-align: center;
-}
-
-/* CHATGPT */
-.taustakuva {
-  background: rgba(0,0,0,0.6); /* dark overlay for readability */
-  padding: 2rem;
-  margin: 3rem;
-  border-radius: 12px;
 }
