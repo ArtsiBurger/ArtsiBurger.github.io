@@ -53,7 +53,7 @@ body
 {
   margin: 0;
   height: 100vh;
-  background-image: url("A_high-resolution_digital_photograph_presents_a_co.png");
+  background-image: url("Dice_bg.png");
   background-size: cover;      /* makes it fill the screen */
   background-position: center; /* centers the image */
   background-repeat: no-repeat;/* prevents tiling */
