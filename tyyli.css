@@ -49,8 +49,9 @@ img {
   gap: 10px;
 }
 
+/* CHATGPT */
 body 
-{
+{ 
   margin: 0;
   height: 100vh;
   background-image: url("Dice_bg.png");
@@ -62,6 +63,7 @@ body
   text-align: center;
 }
 
+/* CHATGPT */
 .taustakuva {
   background: rgba(0,0,0,0.6); /* dark overlay for readability */
   padding: 2rem;
