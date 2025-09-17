@@ -38,7 +38,20 @@ a {
   text-align: center;
 }
 
+header {
+  background-color: aqua;
+  color: brown;
+  padding: 20px;
+  text-align: center;
 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* Demo */
+main {
+  /* work in progrees*/
+}
 
 
 /* CHATGPT */
