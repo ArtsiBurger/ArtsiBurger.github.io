@@ -37,21 +37,30 @@ a {
   display: block;
   text-align: center;
 }
-
+/* Sticky header */
 header {
-  background-color: aqua;
-  color: brown;
+  background-color: rgb(221, 221, 221);
   padding: 20px;
   text-align: center;
 
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-/* Demo */
-/* main { */
-/* work in progrees*/
-/* } */
+header img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  
+
+}
+
 
 /* CHATGPT */
 .bgbody
