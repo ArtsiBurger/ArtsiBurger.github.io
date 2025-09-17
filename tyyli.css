@@ -29,6 +29,12 @@ p {
   font-family: verdana;
   font-size: 10px;
   text-align: center;
+
+  /* Sticky headerin testiä varten */
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 20px;
+  /* Loppu */
 }
 
 a {
