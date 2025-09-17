@@ -58,7 +58,7 @@ body
   background-position: center; /* centers the image */
   background-repeat: no-repeat;/* prevents tiling */
   font-family: Arial, sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
