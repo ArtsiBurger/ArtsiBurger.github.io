@@ -52,13 +52,14 @@ header {
   justify-content: center;
   
 }
+
+/* Kuvan koko & paikka headerissä */
 header img {
   width: 100px;
   height: 100px;
   position: absolute;
   left: 20px;
   
-
 }
 
 
