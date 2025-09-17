@@ -37,3 +37,14 @@ a {
   display: block;
   text-align: center;
 }
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
