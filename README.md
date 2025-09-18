@@ -2,3 +2,6 @@
 1920 px näytön leveys
 
 Paljon noppia taustakuvaksi
+
+### Hyödyllisiä komentoja: 
+main
