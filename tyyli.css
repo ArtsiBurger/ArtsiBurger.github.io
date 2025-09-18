@@ -1,6 +1,7 @@
 
 body {
   background-color: rgb(221, 221, 221);
+  background-image: url(kuvat/Dice_bg.png);
 
 }
 
@@ -34,6 +35,7 @@ p {
   margin-left: 30%;
   margin-right: 30%;
   line-height: 20px;
+  color: rgb(221, 221, 221);
   /* Loppu */
 }
 
