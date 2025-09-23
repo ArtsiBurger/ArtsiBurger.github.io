@@ -11,6 +11,7 @@ h1 {
   font-size: 30px;
   text-align: center;
   text-shadow: -1px 1px 1px rgb(207, 58, 49);
+  margin-top: 150px;
 }
 
 h2 {
@@ -50,26 +51,32 @@ a {
 header {
   background-color: rgb(221, 221, 221);
   padding: 20px;
+  
   text-align: center;
 
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
   z-index: auto;
   height: 60px;
+  width: 100%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 8px;
+  
   
   
 }
 nav {
   display: flex;
+  flex: 1;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
-  margin-left: min(150px);
-  margin-right: min(150px);
+  margin-left: min(100px);
+  margin-right: min(100px);
   
   
   
@@ -111,3 +118,24 @@ header img {
   color: rgb(0, 0, 0);
   text-align: center;
 }
+
+/* Sivun tyyli erikokosille laitteille 
+@media (max-width: 600px) {
+  body {
+    
+  }
+  nav {
+    font-size: 14px;
+  }
+}
+
+/* Example: Styles for screens larger than 600px 
+@media (min-width: 601px) {
+  body {
+    
+  }
+  nav {
+    font-size: 18px;
+  }
+}
+*/
