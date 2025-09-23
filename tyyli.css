@@ -46,6 +46,7 @@ a {
   font-size: 10px;
   display: block;
   text-align: center;
+  
 }
 /* Sticky header */
 header {
@@ -83,14 +84,19 @@ nav {
 }
 
 nav a{
-  background-color: aqua;
+  background: linear-gradient(90deg, #cf3a31,#1f2e33);
   padding: 10px 20px;
   border-radius: 25px;
-  border: 1px solid black;
+  border: 3px solid black;
   flex: 1 1 auto;
   min-width: 80px;
+  text-decoration: none
+}
 
-
+a:link, a:visited {
+color: whitesmoke;
+font-weight: 600;
+user-select: none;
 }
 
 /* Kuvan koko & paikka headerissä */
@@ -99,9 +105,7 @@ header img {
   height: 100px;
   position: absolute;
   left: 0px;
-  
-  
-  
+  user-select: none;
 }
 
 
