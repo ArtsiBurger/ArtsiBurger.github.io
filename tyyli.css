@@ -55,11 +55,27 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  height: 60px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  
+}
+
+nav a{
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  
+
 }
 
 /* Kuvan koko & paikka headerissä */
@@ -68,6 +84,7 @@ header img {
   height: 100px;
   position: absolute;
   left: 20px;
+  
   
 }
 
