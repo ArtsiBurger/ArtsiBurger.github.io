@@ -125,11 +125,11 @@ header img {
 }
 
 /* Valkoinen teksti palikka */
-.txtblock {
+.whiteblock {
   background-color: whitesmoke;
-  height: 80vh;
+  height: 450px;
   padding: 10px 20px;
-  text-align: Right;
+  text-align: left;
   color: black;
 }
 
@@ -142,7 +142,7 @@ header img {
   color: whitesmoke;
   font-size: 18px;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 15px;
   text-decoration: none;
   transition: background-color 0.3s ease;
   cursor: pointer;
