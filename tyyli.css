@@ -1,4 +1,3 @@
-
 body {
   background-color: rgb(221, 221, 221);
   background-image: url(kuvat/Dice_bg.png);
@@ -16,10 +15,11 @@ h1 {
 }
 
 h2 {
-  font-family: verdana;
+  font-family: arial;
   color: black;
   font-size: 20px;
   text-align: center;
+  margin-top: 0;
 }
 
 h3 {
@@ -30,16 +30,9 @@ h3 {
 }
 
 p {
-  font-family: verdana;
-  font-size: 10px;
-  text-align: center;
-
-  /* Sticky headerin testiä varten */
-  margin-left: 30%;
-  margin-right: 30%;
-  line-height: 20px;
-  color: rgb(0, 0, 0);
-  /* Loppu */
+  font-family: arial;
+  font-size: 15px;
+  text-align: left;
 }
 
 a {
@@ -52,7 +45,7 @@ a {
 
 a:link, a:visited {
   color: whitesmoke;
-  font-weight: 600;
+  font-weight: bold;
   user-select: none;
 }
 
@@ -75,6 +68,7 @@ header {
   justify-content: space-between;
   gap: 8px;
 }
+
 nav {
   display: flex;
   flex: 1;
@@ -85,7 +79,7 @@ nav {
   margin-right: min(100px);
 }
 
-nav a{
+nav a {
   background: linear-gradient(90deg, #cf3a31,#1f2e33);
   padding: 15px 15px;
   border-radius: 15px;
@@ -96,8 +90,16 @@ nav a{
   text-decoration: none
 }
 
+/* tummennus kun hover headerissä */
 nav a:hover {
   background: linear-gradient(90deg, #74201c,#111a1d);
+}
+
+/* tummennettu nav linkki kun klikattu */
+nav a.active {
+  background: linear-gradient(90deg, #74201c,#111a1d);
+  pointer-events: none;
+  cursor: default;
 }
 
 /* Kuvan koko & paikka headerissä */
@@ -110,8 +112,7 @@ header img {
 }
 
 /* Noppataustakuva */
-.bgbody
-{ 
+.bgbody { 
   margin: 0;
   width:  100%;
   height: 200px;
@@ -160,17 +161,22 @@ header img {
   padding: 50px 20px;
 }
 
+/* vierekkäinen layout */
 .yhteystiedot {
-  display: flex; /* side by side layout */
-  gap: 20px;     /* space between map and text */
+  display: flex;
+  gap: 20px;
   padding: 40px;
   background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
 }
 
+/* yhtenäinen tila tekstin ja kartan kanssa */
 .map {
-  flex: 1;  /* take up equal space */
+  flex: 1;
 }
 
+/* Kartan muotoilu */
 .map iframe {
   width: 100%;
   height: 400px;
@@ -178,16 +184,13 @@ header img {
   border-radius: 10px;
 }
 
+/* yhteystieto laatikko muotoilu */
 .yhteystiedot-text {
   flex: 1;
   background: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.yhteystiedot-text h2 {
-  margin-top: 0;
 }
 
 /* Sivun tyyli erikokosille laitteille 
