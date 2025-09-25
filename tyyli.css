@@ -49,6 +49,13 @@ a {
   text-align: center;
   
 }
+
+a:link, a:visited {
+  color: whitesmoke;
+  font-weight: 600;
+  user-select: none;
+}
+
 /* Sticky header */
 header {
   background-color: rgb(221, 221, 221);
@@ -93,12 +100,6 @@ nav a:hover {
   background: linear-gradient(90deg, #74201c,#111a1d);
 }
 
-a:link, a:visited {
-  color: whitesmoke;
-  font-weight: 600;
-  user-select: none;
-}
-
 /* Kuvan koko & paikka headerissä */
 header img {
   width: 100px;
@@ -107,7 +108,6 @@ header img {
   left: 0px;
   user-select: none;
 }
-
 
 /* CHATGPT */
 .bgbody
@@ -124,30 +124,40 @@ header img {
   text-align: center;
 }
 
+/* Valkoinen teksti palikka */
 .txtblock {
   background-color: whitesmoke;
   height: 80vh;
   padding: 10px 20px;
-  text-align: left;
+  text-align: center;
   color: black;
 }
 
+/* CTA nappi */
 .cta-button {
-  display: block;
+  display: inline-block;
   padding: 15px 30px;
-  width: 50px 20px;
   background: linear-gradient(90deg, #cf3a31,#1f2e33);
-  color: #fff; /* text color */
+  color: whitesmoke;
   font-size: 18px;
   font-weight: bold;
-  border: none;
   border-radius: 8px;
-  text-decoration: none; /* removes underline if using <a> */
+  text-decoration: none;
   transition: background-color 0.3s ease;
   cursor: pointer;
+  user-select: none;
   text-align: center;
 }
 
+.cta-a {
+flex: 1 1 auto;
+min-width: 35px;
+max-width: 65px;
+text-decoration: none
+
+}
+
+/* CTA napin hover tummennus */
 .cta-button:hover {
   background: linear-gradient(90deg, #74201c,#111a1d);
 }
