@@ -8,14 +8,14 @@ body {
 h1 {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   color: whitesmoke;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
-  text-shadow: -1px 1px 1px rgb(0, 0, 0);
-  margin-top: 150px;
+  text-shadow: -2px 2px 2px rgb(0, 0, 0);
+  margin-top: 80px;
 }
 
 h2 {
-  font-family: arial;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-family: verdana;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
   color: black;
   font-size: 15px;
   text-align: center;
@@ -31,16 +31,14 @@ h3 {
 
 p {
   font-family: arial;
-  font-size: 15px;
-  text-align: left;
+  font-size: 20px;
+  text-align: center;
 }
 
 a {
-  font-family:verdana;
-  font-size: 10px;
-  display: block;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-size: 11px;
   text-align: center;
-  
 }
 
 a:link, a:visited {
@@ -84,9 +82,9 @@ nav a {
   padding: 15px 15px;
   border-radius: 15px;
   /* border: 1px solid black; */
-  flex: 1 1 auto;
+  flex: 2 2 auto;
   min-width: 35px;
-  max-width: 65px;
+  max-width: 75px;
   text-decoration: none
 }
 
@@ -141,11 +139,10 @@ header img {
   padding: 15px 30px;
   background: linear-gradient(90deg, #cf3a31,#1f2e33);
   color: whitesmoke;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 18px;
-  font-weight: bold;
   border-radius: 15px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
   cursor: pointer;
   user-select: none;
 }
@@ -191,6 +188,12 @@ header img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.yhteystiedot-text a {
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: blue;
 }
 
 /* Sivun tyyli erikokosille laitteille 
