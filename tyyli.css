@@ -128,6 +128,26 @@ header img {
   color: black;
 }
 
+.cta-button {
+  display: block;
+  padding: 15px 30px;
+  width: 50px 20px;
+  background: linear-gradient(90deg, #cf3a31,#1f2e33);
+  color: #fff; /* text color */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none; /* removes underline if using <a> */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cta-button:hover {
+  background: linear-gradient(90deg, #74201c,#111a1d);
+}
+
 /* Sivun tyyli erikokosille laitteille 
 @media (max-width: 600px) {
   body {
