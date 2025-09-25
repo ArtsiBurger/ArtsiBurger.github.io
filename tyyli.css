@@ -89,6 +89,10 @@ nav a{
   text-decoration: none
 }
 
+nav a:hover {
+  background: linear-gradient(90deg, #74201c,#111a1d);
+}
+
 a:link, a:visited {
   color: whitesmoke;
   font-weight: 600;
