@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   text-shadow: -1px 1px 1px rgb(0, 0, 0);
   margin-top: 150px;
@@ -136,6 +136,7 @@ header img {
 /* CTA nappi */
 .cta-button {
   display: inline-block;
+  margin-top: 20px;
   padding: 15px 30px;
   background: linear-gradient(90deg, #cf3a31,#1f2e33);
   color: whitesmoke;
@@ -146,15 +147,19 @@ header img {
   transition: background-color 0.3s ease;
   cursor: pointer;
   user-select: none;
-  text-align: center;
 }
 
 .cta-a {
 flex: 1 1 auto;
 min-width: 35px;
 max-width: 65px;
-text-decoration: none
+text-decoration: none;
+user-select: none;
+}
 
+.center {
+  text-align: center;   /* centers text and inline-block elements */
+  padding: 50px 20px;
 }
 
 /* CTA napin hover tummennus */
