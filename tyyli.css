@@ -38,7 +38,7 @@ p {
   margin-left: 30%;
   margin-right: 30%;
   line-height: 20px;
-  color: rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
   /* Loppu */
 }
 
@@ -110,7 +110,7 @@ header img {
 { 
   margin: 0;
   width:  100%;
-  height: 80vh;
+  height: 100vh;
   background-image: url("Dice_bg.png");
   background-size: cover;      /* makes it fill the screen */
   background-position: center; /* centers the image */
@@ -122,8 +122,10 @@ header img {
 
 .txtblock {
   background-color: whitesmoke;
-  padding: 50px 20px;
-  text-align: center;
+  height: 80vh;
+  padding: 10px 20px;
+  text-align: left;
+  color: black;
 }
 
 /* Sivun tyyli erikokosille laitteille 
