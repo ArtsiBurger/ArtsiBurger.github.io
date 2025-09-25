@@ -109,16 +109,16 @@ header img {
   user-select: none;
 }
 
-/* CHATGPT */
+/* Noppataustakuva */
 .bgbody
 { 
   margin: 0;
   width:  100%;
-  height: 100vh;
+  height: 200px;
   background-image: url("Dice_bg.png");
-  background-size: cover;      /* makes it fill the screen */
-  background-position: center; /* centers the image */
-  background-repeat: no-repeat;/* prevents tiling */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: Arial, sans-serif;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -149,22 +149,45 @@ header img {
   user-select: none;
 }
 
-.cta-a {
-flex: 1 1 auto;
-min-width: 35px;
-max-width: 65px;
-text-decoration: none;
-user-select: none;
-}
-
-.center {
-  text-align: center;   /* centers text and inline-block elements */
-  padding: 50px 20px;
-}
-
 /* CTA napin hover tummennus */
 .cta-button:hover {
   background: linear-gradient(90deg, #74201c,#111a1d);
+}
+
+/* Keskittää palikat ja tekstit jos tarve */
+.center {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.yhteystiedot {
+  display: flex; /* side by side layout */
+  gap: 20px;     /* space between map and text */
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.map {
+  flex: 1;  /* take up equal space */
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+
+.yhteystiedot-text {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.yhteystiedot-text h2 {
+  margin-top: 0;
 }
 
 /* Sivun tyyli erikokosille laitteille 
