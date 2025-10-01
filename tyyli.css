@@ -81,7 +81,6 @@ nav a {
   background: linear-gradient(90deg, #cf3a31,#1f2e33);
   padding: 15px 15px;
   border-radius: 15px;
-  /* border: 1px solid black; */
   flex: 2 2 auto;
   min-width: 35px;
   max-width: 75px;
@@ -147,15 +146,15 @@ header img {
   transform: translateY(-2px);
 }
 
-/* YHTEYSTIETO SIVUN OMAT CSS */
-
-/* Keskittää CTA napin */
+/* Pitää CTA napin keskitettynä */
 .center {
   text-align: center;
   padding: 50px 20px;
 }
 
-/* vierekkäinen layout */
+/* YHTEYSTIETO SIVUN OMAT CSS */
+
+/* Layout vierekkäisille laatikoille */
 .yhteystiedot {
   display: flex;
   gap: 20px;
@@ -165,20 +164,19 @@ header img {
   border-radius: 10px;
 }
 
-/* yhtenäinen tila tekstin ja kartan kanssa */
+/* Kartan levitys samaan suuruiseksi */
 .map {
   flex: 1;
 }
 
-/* Kartan muotoilu */
+/* iframe muotoilu eli Google maps */
 .map iframe {
   width: 100%;
   height: 400px;
-  border: none;
   border-radius: 10px;
 }
 
-/* yhteystieto laatikko muotoilu */
+/* yhteystieto laatikon muotoilu */
 .yhteystiedot-text {
   flex: 1;
   background: whitesmoke;
@@ -194,7 +192,7 @@ header img {
   color: blue;
 }
 
-/* Mobiili näkymä yhteystieto palikat */
+/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
 @media (max-width: 600px) {
 .yhteystiedot {
   flex-direction: column;
