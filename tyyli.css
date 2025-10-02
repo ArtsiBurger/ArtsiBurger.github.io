@@ -215,7 +215,7 @@ footer a{
 
 /* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
 @media (max-width: 600px) {
-.yhteystiedot {
+.whiteBlock {
   flex-direction: column;
 }
 }
