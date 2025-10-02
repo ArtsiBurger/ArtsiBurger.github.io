@@ -151,7 +151,7 @@ header img {
   display: flex;
   gap: 20px;
   padding: 40px;
-  background-color: whitesmoke;
+  background-color: rgb(221, 221, 221);
   border: none;
   border-radius: 10px;
 }
