@@ -146,7 +146,7 @@ header img {
 
 /* YHTEYSTIETO SIVUN OMAT CSS */
 
-/* Layout vierekkäisille laatikoille */
+/* Pohja vierekkäisille laatikoille */
 .whiteBlock {
   display: flex;
   gap: 20px;
@@ -169,7 +169,7 @@ header img {
 }
 
 /* yhteystieto laatikon muotoilu */
-.yhteystiedot-text {
+.whiteBlockText {
   flex: 1;
   background: whitesmoke;
   padding: 20px;
@@ -178,7 +178,7 @@ header img {
 }
 
 /* mailto muotoilu */
-.yhteystiedot-text a {
+.whiteBlockText a {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: blue;
