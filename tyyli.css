@@ -67,6 +67,16 @@ header {
   gap: 2px;
 }
 
+/* Kuvan koko & paikka headerissä */
+header img {
+  width: 100px;
+  margin-top: 0;
+  position: absolute;
+  left: 0px;
+  user-select: none;
+}
+
+/* Päävalikko headerissä */
 nav {
   display: flex;
   flex: 1;
@@ -106,16 +116,6 @@ nav {width:100%;  justify-content: space-between;}
 nav a {font-size: 10px; flex:1; padding: 15px; text-align:center}
 }
 
-/* Kuvan koko & paikka headerissä */
-header img {
-  width: 100px;
-  margin-top: 0;
-  position: absolute;
-  left: 0px;
-  user-select: none;
-}
-
-
 
 /* CTA nappi */
 .cta-button {
@@ -143,6 +143,8 @@ header img {
   text-align: center;
   padding: 50px 20px;
 }
+
+
 
 /* YHTEYSTIETO SIVUN OMAT CSS */
 
@@ -183,6 +185,17 @@ header img {
   font-size: 20px;
   color: blue;
 }
+
+/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
+@media (max-width: 600px) {
+.yhteystiedot {
+  flex-direction: column;
+}
+}
+
+/* YHTEYSTIETO SIVUN LOPPU*/
+/* ETUSVIN OMAT CSS*/
+
 /* Etusivun kuva paikka */
 .whiteBlockImage {
   flex: 1;
@@ -196,12 +209,7 @@ header img {
   box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 }
 
-/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
-@media (max-width: 600px) {
-.yhteystiedot {
-  flex-direction: column;
-}
-}
+/* ETUSIVUN LOPPU*/
 
 /* Sivun tyyli erikokosille laitteille 
 @media (max-width: 600px) {
