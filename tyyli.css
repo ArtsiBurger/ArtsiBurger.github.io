@@ -115,14 +115,7 @@ header img {
   user-select: none;
 }
 
-/* Valkoinen teksti palikka */
-.whiteblock {
-  background-color: whitesmoke;
-  height: 450px;
-  padding: 10px 20px;
-  text-align: left;
-  color: black;
-}
+
 
 /* CTA nappi */
 .cta-button {
@@ -154,7 +147,7 @@ header img {
 /* YHTEYSTIETO SIVUN OMAT CSS */
 
 /* Layout vierekkäisille laatikoille */
-.yhteystiedot {
+.whiteBlock {
   display: flex;
   gap: 20px;
   padding: 40px;
