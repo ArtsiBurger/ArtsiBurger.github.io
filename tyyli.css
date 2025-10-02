@@ -174,7 +174,7 @@ header img {
   background: whitesmoke;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 /* mailto muotoilu */
@@ -182,6 +182,17 @@ header img {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: blue;
+}
+.whiteBlockImage {
+  flex: 1;
+
+}
+
+.whiteBlockImage img {
+  width: 678px;
+  height: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 /* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
