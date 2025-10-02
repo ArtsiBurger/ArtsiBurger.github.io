@@ -183,11 +183,12 @@ header img {
   font-size: 20px;
   color: blue;
 }
+/* Etusivun kuva paikka */
 .whiteBlockImage {
   flex: 1;
 
 }
-
+/* Etusivun kuvan muotoilu*/
 .whiteBlockImage img {
   width: 678px;
   height: 900px;
