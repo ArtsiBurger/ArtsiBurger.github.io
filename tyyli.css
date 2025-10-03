@@ -173,7 +173,7 @@ footer p{
   text-align: center;
   text-decoration: none;
   margin-top: 15px;
-  flex: 1;
+  
 }
 
 /* Some linkkien värit */
@@ -262,6 +262,7 @@ footer p{
 @media (max-width: 600px) {
 footer {
   flex-direction: column;
+  align-items: center;
 }
 }
 
