@@ -160,18 +160,15 @@ footer a{
   
 }
 .fab {
-  
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    
-    color: white;
-  
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;  
 }
 
 .fa-facebook {
   background-color: rgb(8, 102, 255);
-  
 }
 .fa-youtube {
   background-color: rgb(255, 0, 51);
