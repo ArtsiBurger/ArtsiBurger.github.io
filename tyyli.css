@@ -219,7 +219,8 @@ footer p{
   padding: 40px;
   background-color: rgb(221, 221, 221);
   border: none;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 /* Kartan levitys samaan suuruiseksi */
