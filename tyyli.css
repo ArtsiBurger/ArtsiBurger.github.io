@@ -155,9 +155,14 @@ footer {
 
 }
 footer a{
-  margin: 8px;
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
-  
+  font-size: 20px;
+  color: blue;
+}
+
+footer p{
+  font-size: 20px;
+
 }
 .fab {
   padding: 10px;
