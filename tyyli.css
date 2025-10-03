@@ -41,11 +41,12 @@ a {
   text-align: center;
 }
 
-a:link, a:visited {
+nav a:link, nav a:visited {
   color: whitesmoke;
   font-weight: bold;
   user-select: none;
 }
+
 
 /* Sticky header */
 header {
@@ -155,10 +156,17 @@ footer {
 
 }
 footer a{
+  color: white;
+  user-select: none;
+}
+.footerMailto{
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: blue;
+  color: rgb(8, 8, 239);
+  
+  
 }
+
 
 footer p{
   font-size: 20px;
@@ -168,8 +176,8 @@ footer p{
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  color: white;
-  margin-top: 15px;  
+  margin-top: 15px;
+  
 }
 
 .fa-facebook {
