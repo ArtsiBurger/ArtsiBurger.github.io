@@ -148,44 +148,42 @@ nav a {font-size: 10px; flex:1; padding: 15px; text-align:center}
   padding: 50px 20px;
 }
 
-/* RIKKI */
+/* Footerin muotoilu */
 footer {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 18px;
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-around;
-  
-  
-  
+}
 
-}
+/* Footerin linkkien muotoilu */
 footer a{
-  color: white;
+  color: whitesmoke;
   user-select: none;
-  
 }
+
+/* Footer mailto muotoilu */
 .footerMailto{
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: rgb(8, 8, 239);
-  
-  
 }
 
-
+/* Footer p muotoilu */
 footer p{
   font-size: 20px;
-
 }
+
+/* Facebook, Youtube, Discord linkkien muotoilu */
 .fab {
   padding: 10px;
   text-align: center;
   text-decoration: none;
   margin-top: 15px;
-  
 }
 
+/* Some linkkien värit */
 .fa-facebook {
   background-color: rgb(8, 102, 255);
 }
@@ -196,14 +194,11 @@ footer p{
   background-color: rgb(84, 98, 228);
 }
 
-/* RIKKI LOPPU */
-
 /* ETUSVIN OMAT CSS*/
 
 /* Etusivun kuva paikka */
 .whiteBlockImage {
   flex: 1;
-
 }
 /* Etusivun kuvan muotoilu*/
 .whiteBlockImage img {
@@ -213,14 +208,14 @@ footer p{
   box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 }
 
-
-
 /* ETUSIVUN LOPPU */
+
 
 
 /* TUOTTEET SIVUN CSS */
 
 /* TUOTTEET SIVUN LOPPU */
+
 
 
 /* YHTEYSTIETO SIVUN OMAT CSS */
@@ -262,6 +257,7 @@ footer p{
   font-size: 20px;
   color: blue;
 }
+
 /* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
 @media (max-width: 600px) {
 .whiteBlock {
@@ -269,10 +265,11 @@ footer p{
 }
 }
 
-
+/* Mobiili näkymä footeria varten */
+@media (max-width: 600px) {
+footer {
+  flex-direction: column;
+}
+}
 
 /* YHTEYSTIETO SIVUN LOPPU*/
-
-
-
-
