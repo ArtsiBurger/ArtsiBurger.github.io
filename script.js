@@ -1,1 +1,0 @@
-//Tänne tulee KAIKKI mahdolliset JavaScriptit
