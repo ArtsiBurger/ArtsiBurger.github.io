@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   margin-top: 0;
 }
@@ -159,20 +159,26 @@ footer a{
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   
 }
-.fa {
+.fa, .fab {
   
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(8, 102, 255);
+    
     color: white;
   
 }
-/*
+
 .fa-facebook {
+  background-color: rgb(8, 102, 255);
   
-  
-}*/
+}
+.fa-youtube {
+  background-color: rgb(255, 0, 51);
+}
+.fa-discord {
+  background-color: rgb(84, 98, 228);
+}
 
 /* RIKKI LOPPU */
 
