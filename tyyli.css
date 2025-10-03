@@ -179,6 +179,35 @@ footer a{
 
 /* RIKKI LOPPU */
 
+/* ETUSVIN OMAT CSS*/
+
+/* Etusivun kuva paikka */
+.whiteBlockImage {
+  flex: 1;
+
+}
+/* Etusivun kuvan muotoilu*/
+.whiteBlockImage img {
+  width: 678px;
+  height: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
+@media (max-width: 600px) {
+.whiteBlock {
+  flex-direction: column;
+}
+}
+
+/* ETUSIVUN LOPPU */
+
+
+/* TUOTTEET SIVUN CSS */
+
+/* TUOTTEET SIVUN LOPPU */
+
 
 /* YHTEYSTIETO SIVUN OMAT CSS */
 
@@ -220,48 +249,10 @@ footer a{
   color: blue;
 }
 
-/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
-@media (max-width: 600px) {
-.whiteBlock {
-  flex-direction: column;
-}
-}
+
 
 /* YHTEYSTIETO SIVUN LOPPU*/
-/* ETUSVIN OMAT CSS*/
 
-/* Etusivun kuva paikka */
-.whiteBlockImage {
-  flex: 1;
 
-}
-/* Etusivun kuvan muotoilu*/
-.whiteBlockImage img {
-  width: 678px;
-  height: 900px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
-}
 
-/* ETUSIVUN LOPPU*/
 
-/* Sivun tyyli erikokosille laitteille 
-@media (max-width: 600px) {
-  body {
-    
-  }
-  nav {
-    font-size: 14px;
-  }
-}
-
-/* Example: Styles for screens larger than 600px 
-@media (min-width: 601px) {
-  body {
-    
-  }
-  nav {
-    font-size: 18px;
-  }
-}
-*/
