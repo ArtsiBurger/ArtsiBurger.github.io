@@ -3,6 +3,7 @@ body {
   background-image: url(kuvat/Dice_bg.png);
   background-repeat: no-repeat;
   height: 100px;
+  margin: 0;
   
 }
 
@@ -150,9 +151,10 @@ nav a {font-size: 10px; flex:1; padding: 15px; text-align:center}
 footer {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 18px;
-  background-color: rgb(221, 221, 221);
+  background-color: white;
   display: flex;
   justify-content: space-around;
+  
   
   
 
@@ -204,18 +206,13 @@ footer p{
 }
 /* Etusivun kuvan muotoilu*/
 .whiteBlockImage img {
-  width: 678px;
-  height: 900px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 }
 
-/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
-@media (max-width: 600px) {
-.whiteBlock {
-  flex-direction: column;
-}
-}
+
 
 /* ETUSIVUN LOPPU */
 
@@ -263,6 +260,12 @@ footer p{
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: blue;
+}
+/* Mobiili näkymä yhteystieto sivulle, Päälekkäiset palikat */
+@media (max-width: 600px) {
+.whiteBlock {
+  flex-direction: column;
+}
 }
 
 
