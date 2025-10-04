@@ -52,23 +52,22 @@ nav a:link, nav a:visited {
 
 /* Sticky header */
 header {
-  background-color: rgb(221, 221, 221);
-  padding: 20px;
-  
-  text-align: center;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 60px;
+ z-index: auto;
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: auto;
-  height: 60px;
-  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 2px;
+ padding: 20px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+ background-color: rgb(221, 221, 221);
+ text-align: center;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 /* Kuvan koko & paikka headerissä */
@@ -166,7 +165,8 @@ footer a{
 
 /* Footer p muotoilu */
 footer p{
-  font-size: 20px;
+  font-size: 16px;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
 }
 
 /* Facebook, Youtube, Discord linkkien muotoilu */
@@ -175,7 +175,6 @@ footer p{
   text-align: center;
   text-decoration: none;
   margin-top: 15px;
-  
 }
 
 /* Some linkkien värit */
@@ -189,12 +188,13 @@ footer p{
   background-color: rgb(84, 98, 228);
 }
 
-/* ETUSVIN OMAT CSS*/
+/* ETUSIVUN OMAT CSS*/
 
 /* Etusivun kuva paikka */
 .whiteBlockImage {
   flex: 1;
 }
+
 /* Etusivun kuvan muotoilu*/
 .whiteBlockImage img {
   width: 100%;
@@ -206,11 +206,9 @@ footer p{
 /* ETUSIVUN LOPPU */
 
 
-
 /* TUOTTEET SIVUN CSS */
 
 /* TUOTTEET SIVUN LOPPU */
-
 
 
 /* YHTEYSTIETO SIVUN OMAT CSS */
@@ -226,6 +224,7 @@ footer p{
   border-top-left-radius: 10px;
 }
 
+/* Pohja laatikoille, ei kulmien roundaamista */
 .whiteBlock2 {
   display: flex;
   gap: 20px;
@@ -234,7 +233,7 @@ footer p{
   border: none;
 }
 
-/* Kartan levitys samaan suuruiseksi */
+/* Kartan levitys saman suuruiseksi */
 .map {
   flex: 1;
 }
