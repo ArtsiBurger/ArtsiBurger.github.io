@@ -205,6 +205,7 @@ footer p{
 /* Etusivun tekstin muotoilu */
 .textEtusivu {
   margin: 50px;
+  line-height: 40px;
 }
 
 /* ETUSIVUN LOPPU */
