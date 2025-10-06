@@ -6,6 +6,8 @@ Kuvat luotu käyttäen ChatGPT:tä
 W 1920 x L 950 px PC
 W 411 x L 780 px mobiili
 
+Validaattori: Check
+
 ## Muutokset
     - Rewards-ohjelmaa ei tullut vielä tähän versioon.
     - Muuten muutoksia alkuperäiseen suunnitelmaan nähden ei ollut.
