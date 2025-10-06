@@ -281,7 +281,8 @@ nav a {font-size: 10px; flex:1; padding: 13px; text-align:center}
 .whiteBlockImage img {flex-direction: column;}
 .whiteBlockText {max-width: fit-content;}
 footer {flex-direction: column; align-items: center;}
-h1 {font-size: 42px;} 
+h1 {font-size: 42px;}
+.textEtusivu {line-height: 25px;} 
 
 }
 /* Mobiili näkymän CSS LOPPU */
