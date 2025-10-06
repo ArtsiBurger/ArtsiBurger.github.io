@@ -267,6 +267,22 @@ footer p{
   color: blue;
 }
 
+/* Tuote sivun oma whiteblock */
+.whiteBlockTextTuote {
+  flex: 1;
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Valkoinen linkkien väri Whiteblock palikassa */
+.whiteBlockTextTuote a {
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
 /* YHTEYSTIETO SIVUN LOPPU*/
 
 /* Mobiili näkymän CSS ALKU */
