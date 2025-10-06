@@ -273,7 +273,7 @@ footer p{
 
 @media (max-width: 600px) {
 header {padding:20px}
-body {background-size: 100% 30%;}
+body {background-size: 100% 500px}
 nav {width:100%; justify-content: space-between; margin-left: 78px; margin-right: 30px;}
 nav a {font-size: 10px; flex:1; padding: 13px; text-align:center}
 .whiteBlock {flex-direction: column;}
