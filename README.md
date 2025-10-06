@@ -1,5 +1,5 @@
 # Muistiinpanot
-Kuvat luotu käyttäen ChatGPT:tä
+Kuvat luotu käyttäen ChatGPT:tä<br>
 
 Validaattori: Check
 
