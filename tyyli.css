@@ -70,7 +70,6 @@ header img {
   position: absolute;
   left: 0px;
   user-select: none;
-  
 }
 
 /* Päävalikko headerissä */
@@ -274,7 +273,6 @@ footer p{
 /* YHTEYSTIETO SIVUN LOPPU*/
 
 /* Mobiili näkymän CSS ALKU */
-
 @media (max-width: 600px) {
 header {padding:20px}
 body {background-size: 100% 500px}
@@ -287,7 +285,5 @@ nav a {font-size: 10px; flex:1; padding: 13px; text-align:center}
 footer {flex-direction: column; align-items: center;}
 h1 {font-size: 38px;}
 .textEtusivu {line-height: 25px; margin-left: 0px; margin-right: 0px;}
-
-
 }
 /* Mobiili näkymän CSS LOPPU */
