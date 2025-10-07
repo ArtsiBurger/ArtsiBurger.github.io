@@ -63,8 +63,25 @@ header {
  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
+/* Headerin logo napiksi */
+.logobutton {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  user-select: none;
+}
+
+/* Headerin logon hover animaatio */
+.logobutton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
 /* Kuvan koko & paikka headerissä */
-header img {
+.logobutton img {
   width: 100px;
   margin-top: 0;
   position: absolute;
